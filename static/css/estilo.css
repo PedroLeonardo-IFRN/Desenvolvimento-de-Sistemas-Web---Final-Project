@@ -1,0 +1,21 @@
+.corpo_text{
+    text-align: justify;
+    color: white;
+    text-justify: inter-word;
+    border-radius: 2px;
+    background-color: #9700cc;
+    padding: 7px;
+    margin: 9px;
+    margin-top: 1px;
+    letter-spacing: normal;
+    text-indent: 10px;
+}
+
+a{
+    color:white
+}
+
+.Regist{
+    width: 12ch;
+    
+}
