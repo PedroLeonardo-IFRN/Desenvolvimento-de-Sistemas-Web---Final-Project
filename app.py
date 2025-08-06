@@ -26,10 +26,17 @@ def hello():
     click.echo("tudo joia")
 
 @app.route('/')
-
 def index():
-      return render_template('diarios.html')
+      return render_template('entrada.html')
+@app.route('/biblioteca')
+def biblioteca():
+      return render_template('biblioteca.html')
+@app.route('/login')
+def login():
+      return render_template('login.html')
+@app.route('/registro')
+def registro():
+      return render_template('registro.html')
 
 if __name__ == '__main__':
        app.run(debug=True)
-
